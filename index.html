@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plagiarism Checker 3D</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">Plagiarism<span>Checker</span></div>
+    <ul>
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#checker">Checker</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="hero-title">3D Plagiarism Checker</h1>
+      <p class="hero-desc">Experience originality assurance in a whole new dimension.<br>Fast, accurate, and visually stunning plagiarism detection.</p>
+      <a href="#checker" class="cta-btn">Try Now</a>
+    </div>
+    <div class="hero-3d" id="three-container"></div>
+  </section>
+  <section class="checker-section" id="checker">
+    <div class="checker-card" id="checkerCard">
+      <h2>Plagiarism Checker</h2>
+      <form id="plagiarismForm">
+        <textarea id="inputText" placeholder="Paste your content here..."></textarea>
+        <input type="file" id="inputFile" accept=".txt,.doc,.docx,.pdf">
+        <button type="submit">Check Plagiarism</button>
+        <div class="result" id="resultBox"></div>
+      </form>
+    </div>
+  </section>
+  <section class="features-section" id="features">
+    <h2>Features</h2>
+    <div class="features-grid">
+      <div class="feature-card glass">
+        <h3>AI Deep Search</h3>
+        <p>Scans billions of sources for unmatched accuracy.</p>
+      </div>
+      <div class="feature-card glass">
+        <h3>Multi-Format</h3>
+        <p>Supports PDF, DOCX, TXT, and more for seamless uploads.</p>
+      </div>
+      <div class="feature-card glass">
+        <h3>Instant Reports</h3>
+        <p>Get detailed, color-coded, downloadable reports in seconds.</p>
+      </div>
+      <div class="feature-card glass">
+        <h3>Privacy First</h3>
+        <p>Your documents are never stored or shared. 100% confidential.</p>
+      </div>
+    </div>
+  </section>
+  <section class="team-section" id="team">
+    <h2>Delta Coders</h2>
+    <div class="team-grid">
+      <div class="team-card glass">
+        <img src="af3f2396-8588-4a7e-8009-8216f8b4cf70.jpg" alt="Ravi Sharma">
+        <h4>Sarthak Chaubey</h4>
+        <p>Project Lead</p>
+      </div>
+      
+     
+      
+      
+    </div>
+  </section>
+  <section class="contact-section" id="contact">
+    <h2>Contact</h2>
+    <p>Email us at <b>support@plagiarismchecker.com</b></p>
+  </section>
+  <footer>
+    &copy; 2025 Delta Coders. All rights reserved.
+    <div style="font-size:1.1rem;color:#39ff14;margin-top:8px;">Made by <b>Delta Coders</b></div>
+  </footer>
+  <!-- Three.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
