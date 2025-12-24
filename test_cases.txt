@@ -1,0 +1,11 @@
+Test Case 1:
+Input: Same text
+Expected Output: 100% similarity
+
+Test Case 2:
+Input: Completely different text
+Expected Output: 0% similarity
+
+Test Case 3:
+Input: Partial matching text
+Expected Output: Partial percentage
